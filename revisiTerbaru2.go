@@ -130,7 +130,7 @@ func login() {
 	FS: Mengakses menu layanan jika username dan password sesuai, atau menampilkan pesan kesalahan.
 */
     var inputUsername, inputPassword string
-    fmt.Println("\n              ======= Login Akun =======")
+    fmt.Println("\n               ======= Login Akun =======")
 	fmt.Println()
     fmt.Print("                    👤 Username : ")
     fmt.Scan(&inputUsername)
